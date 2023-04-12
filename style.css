@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul li a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+}
+header div{
+    float: left;
+    justify-content: center;
+}
+header .logo{
+    margin-left: 200px;
+    padding: 20px;
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+}
+header ul{
+    list-style: none;
+}
+header ul li{
+    float: left;
+    padding: 20px;
+}
+header ul li a{
+    color: rgb(46, 45, 45);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+header ul li a:hover{
+    color: #7f97ff;
+    transition: all linear 0.2s;
+}
+
+/* Section one start */
+.section-1{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 665px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+.text, .img{
+    width: 50%;
+}
+.text{
+    margin-left: 230px;
+    margin-bottom: 100px;
+}
+.img{
+    padding-right: 160px;
+}
+.img img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.text h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.text h1{
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.text p{
+    color: rgba(82, 85, 85, 0.7);
+}
+.text input{
+    padding: 10px 20px;
+    outline: none;
+    color: #fff;
+    background-color: #7f97ff;
+    border: 1px solid #7f97ff;
+    font-size: 15px;
+    font-weight: bold;
+}
+.text input:hover{
+    box-shadow: 5px 10px 30px rgba(130, 147, 255, 0.5);
+    transition: all 0.5s ease-in;
+}
+
+/* Section two start */
+.section-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+.section-2 div{
+    width: 40%;
+    margin: 0px auto;
+}
+.section-2 img{
+    width: 100%;
+    height: auto;
+}
+.section-2 .img-2{
+    padding-left: 150px;
+}
+.section-2 .text-2 h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.section-2 .text-2 h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.section-2 .text-2 p{
+    color: rgba(82, 85, 85, 0.7);
+    width: 80%;
+    padding-bottom: 20px;
+}
+.section-2 .text-2 input{
+    padding: 10px 20px;
+    outline: none;
+    color: #fff;
+    background-color: #7f97ff;
+    border: 1px solid #7f97ff;
+    font-size: 15px;
+    font-weight: bold;
+}
+.section-2 .text-2 input:hover{
+    box-shadow: 5px 10px 30px rgba(130, 147, 255, 0.5);
+    transition: all 0.5s ease-in;
+}
+/* Section three start */
+.section-3{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 120px;
+}
+.servicehead h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.servicehead p{
+    color: rgba(82, 85, 85, 0.7);
+    width: 670px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.service{
+    width: 80%;
+    margin: 0 auto;
+}
+.service .srvc-1{
+    width: 100%;
+    overflow: hidden;
+    
+}
+.service .srvc-1 .iconbox{
+    width: 32%;
+    float: left;
+    padding: 0px 15px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.iconbox a{
+    text-decoration: none;
+}
+.iconbox i{
+    font-size: 40px;
+    color: #525151;
+}
+.iconbox h1{
+    font-size: 18px;
+    margin: 30px 0px;
+    color: #525151;
+}
+.iconbox p{
+    color: rgba(82, 85, 85, 0.7);
+    width: 80%;
+    margin: 0 auto;
+    line-height: 25px;
+}
+.iconbox:hover i{
+    color: #7f97ff;
+    transition: all 0.3s ease-in;
+}
+.iconbox:hover h1{  
+    color: #7f97ff;
+    transition: all 0.3s ease-in;
+}
+/* section three end */
+
+.section-4{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;
+    background-color: #7f97ff;
+    height: 300PX;
+    margin-bottom: 120PX;
+}
+.section-4 .counter{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;   
+}
+.section-4 .count{
+    float: left;
+    width: 25%;
+    color: #fff;
+    
+}
+.section-4 .count h1{
+    font-size: 36px;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
