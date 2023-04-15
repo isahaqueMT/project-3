@@ -14,6 +14,7 @@ header{
     position: fixed;
     top: 0;
     background-color: #fff;
+    z-index: 1;
 }
 header div{
     float: left;
@@ -95,6 +96,7 @@ header ul li a:hover{
     border: 1px solid #7f97ff;
     font-size: 15px;
     font-weight: bold;
+    margin-top: 20px;
 }
 .text input:hover{
     box-shadow: 5px 10px 30px rgba(130, 147, 255, 0.5);
@@ -215,9 +217,8 @@ header ul li a:hover{
     margin: 0 auto;
     text-align: center;
     margin-top: 120px;
-    background-color: #7f97ff;
+    background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
     height: 300PX;
-    margin-bottom: 120PX;
 }
 .section-4 .counter{
     width: 80%;
@@ -236,3 +237,239 @@ header ul li a:hover{
     padding-bottom: 5px;
     font-weight: 700;
 }
+/* section four end */
+
+.section-5{
+    width: 100%;
+    padding-top: 120px;
+}
+.sectionhead h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.sectionhead p{
+    color: rgba(82, 85, 85, 0.7);
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.imgg{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    position: relative;
+}
+.imggbox h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.imggbox p{
+    padding-bottom: 20px;
+    text-align: center;
+    color: rgba(82, 85, 85, 0.7);
+}
+.imggbox .overlay{
+    width: 340px;
+    height: 339px;
+    background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    border-radius: 8px;
+    position: absolute;
+    opacity: 0;
+}
+.imggbox .overlay img{
+    display: grid;
+    align-items: center;
+    margin: auto;
+    margin-top: 45%;
+}
+.imggbox .overlay img{
+    top: 50% !important;
+    left: 50% !important;
+}
+.imggbox:hover .overlay{
+    opacity: 80%;
+    transition: all 0.3s ease 0s;
+}
+/* section five end */
+
+/* section six start */
+.section-6{
+    padding: 120px 0;
+}
+.section-6 .cartbox{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.section-6 .cart{
+    padding: 40px 20px;
+    background-color: rgb(249, 249, 255);
+    text-align: center;
+    width: 25%;
+    cursor: pointer;
+}
+.section-6 .cart h2{
+    font-size: 36px;
+    font-weight: 300;
+    height: 140px;
+    width: 140px;
+    margin: 0 auto;
+    background-color: rgba(132, 144, 255, 0.1);
+    display: grid;
+    align-items: center;
+    border-radius: 100px;
+    border: 30px solid rgba(132, 144, 255, 0.1);
+}
+.section-6 .cart h6{
+    font-size: 16px;
+    padding-top: 15px;
+}
+.section-6 .cart p{
+    font-size: 15px;
+    padding: 10px 0;
+    color: rgba(82, 85, 85, 0.7);
+}
+.section-6 .cart hr{
+    outline: 0;
+    border: 1px solid rgba(82, 85, 85, 0.7);;
+    opacity: 50%; 
+}
+.section-6 .cart h1{
+    font-size: 36px;
+    padding-top: 30px;
+    font-weight: 600;
+}
+.section-6 .cart button{
+    outline: 0;
+    border: none;
+    padding: 10px 60px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: none;
+}
+.section-6 .cart:hover{
+    background: linear-gradient(90deg, #8490ff 50%, #62bdfc 100%);
+    color: #fff;
+    transition: all 0.3s;
+    transform: scale(1.05);
+}
+.section-6 .cart:hover p{
+    color: #fff;
+}
+.section-6 .cart:hover hr{
+    border: 1px solid #fff;
+    opacity: 100%;
+}
+.section-6 .cart:hover h1{
+    display: none;
+}
+.section-6 .cart:hover button{
+    display:block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.section-6 .cart:hover h2{
+    background-color: none;
+    border: 30px solid rgba(255, 255, 255, 0.5);
+}
+/* section six end */
+
+/* section seven start */
+.section-7{
+    background: linear-gradient(90deg, #8490ff 50%, #62bdfc 100%);
+    padding: 70px 0;
+}
+.section-7 .imgslidebox{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-7 .imgslidebox img{
+    opacity: 50%;
+}
+.section-7 .imgslidebox img:hover{
+    opacity: 100%;
+    transition: all 0.3s ease;
+}
+/* section seven end */
+
+/* footer section start */
+.section-8{
+    background-color: #04091e;
+    padding: 120px 0;
+}
+.section-8 .footer{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.section-8 .footer .footertext{
+    width: 40%;
+    padding: 0 25px;
+    margin: 0 auto;
+
+}
+.section-8 .footer .footertext:last-child{
+    width: 20%;
+}
+.section-8 .footer .footertext h1{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.section-8 .footer .footertext p{
+    font-size: 14px;
+    color: #777777;
+    line-height: 25px;
+}
+.section-8 .footer .footertext p .link{
+    color: #8490ff;
+    text-decoration: none;
+}
+.section-8 .footer .footertext .subscribe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    left: 0;
+}
+.section-8 .footer .footertext input{
+    border: none;
+    outline: 0;
+    padding: 15px 180px 15px 20px;
+    font-size: 14px;
+}
+.section-8 .footer .footertext .subscribe i{
+    padding: 15px;
+    background-color: #8490ff;
+    color: #fff;
+}
+.section-8 .footer .footertext .footericon i{
+    padding: 20px 10px;
+    color: #fff;
+
+}
+.section-8 .footer .footertext .footericon i:hover{
+    color: #8490ff;
+
+}
+
+/* footer section end */
+
+
+
+
+
