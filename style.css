@@ -102,6 +102,17 @@ header ul li a:hover{
     box-shadow: 5px 10px 30px rgba(130, 147, 255, 0.5);
     transition: all 0.5s ease-in;
 }
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.9);
+    float: right;
+    line-height: 80px;
+    margin-right: -150px;
+} 
+#check{
+    display: none;
+}
 
 /* Section two start */
 .section-2{
@@ -468,6 +479,169 @@ header ul li a:hover{
 }
 
 /* footer section end */
+
+@media (max-width:768px){
+    header{
+        width: 100%;
+        height: auto;
+    }
+    header .logo{
+        margin-left: 30px;
+        padding: 20px;
+    }
+    .checkbtn{
+        display: block !important;
+    }
+    header .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #f9f9ff;
+        top: 54px;
+        left: -200%;
+        transition: all 1s;
+    }
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        padding-bottom: 0px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    header .nav ul li a{
+        font-size: 20px;
+        text-align: center;
+
+    }
+}
+
+@media (max-width:768px){
+    .section-1{
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    .text{
+        margin: auto;
+    }
+    .text h3{
+        font-size: 15px;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    .img{
+        margin: auto;
+        padding: 0;
+    }
+
+    .section-2{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .section-2 .img-2{
+        width: 100%;
+        padding: 0;
+    }
+    .text-2{
+        position: relative;
+        left: 15px;
+        text-align: center !important;
+    }
+    .text-2 h3{
+        font-size: 12px;
+    }
+    .text-2 h1{
+        font-size: 30px;
+    }
+    .section-2 div{
+        width: 80%;
+    }
+    .text-2 p{
+        width: 100% !important;
+        font-size: 15px;
+    }
+    .section-3{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 200px;
+    }
+    .srvc-1 div{
+        clear: left;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .srvc-1 .iconbox{
+        width: 100% !important;
+        height: auto;
+    }
+    .servicehead p{
+        width: 80%;
+    }
+    .servicehead h1{
+        font-size: 30px;
+    }
+    .section-4, .section-5, .section-6, .section-7, .section-8{
+        width: 100%;
+        position: relative;
+        top: 120px;
+    }
+    .section-4 {
+        height: 400px;
+    }
+    .section-4 .count{
+        clear: left;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        position: relative;
+        top: -60px;
+    }
+    .section-4 .count h1{
+        font-size: 30px;
+    }
+    .section-4 .count p{
+        font-size: 12px;
+    }
+    .sectionhead h1{
+        font-size: 30px;
+    }
+    .section-6 .cart{
+        width: 100%;
+        position: relative;
+        margin: 10px 0;
+    }
+    .section-6 .cartbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-7 .imgs{
+        width: 25%;
+        padding: 0 10px;
+    }
+    .section-8 .footer{
+        display: block;
+    }
+    .section-8 .footer .footertext{
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .section-8 input{
+        display: flex;
+        flex-direction: row;
+        padding-right: 110px;
+    }
+    .section-8 .footer .footertext:last-child {
+        width: 80%;
+        margin: 0;
+    }
+}
 
 
 
